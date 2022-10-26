@@ -54,7 +54,7 @@ const LiftingStateUpDemo = () => {
 
   return (
     <div style={{backgroundColor: "purple"}}>
-        <h2>State Life Demo</h2>
+        <h2>State Lift Demo</h2>
         <p>Total persons: {persons.length}</p>
         <div style={{display: "flex"}}>
         <AllPersonsComponent persons={persons} deletePerson={deletePerson} editPerson={editPerson}/>
